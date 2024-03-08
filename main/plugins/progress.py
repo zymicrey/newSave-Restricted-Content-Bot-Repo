@@ -1,4 +1,4 @@
-#GitHub: devgaganin
+#GitHub: Remoji
 
 import math
 import os
