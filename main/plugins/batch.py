@@ -158,7 +158,7 @@ async def run_batch(userbot, client, sender, countdown, link):
 
 C = "/cancel"
 START_PIC = "https://graph.org/file/da97ceca70e55983b4891.png"
-TEXT = "👋 Hi, This is 'Paid Restricted Content Saver' bot Made with ❤️ by __**Team SPY**__."
+TEXT = "👋 Hi, This is 'Paid Restricted Content Saver' bot Made with ❤️ by __**Remo**__."
 
 @gagan.on(events.NewMessage(pattern=f"^{C}"))
 async def start_command(event):
@@ -166,7 +166,7 @@ async def start_command(event):
     buttons = [
         [Button.inline("Cancel", data="cancel"),
          Button.inline("Cancel", data="cancel")],
-        [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("Join Channel", url="t.me/biksitlogs")]
     ]
 
     # Sending photo with caption and buttons
@@ -181,7 +181,7 @@ TEXTING = """
 ```
 Execute /batch command only when you 100% sure.
 Bcz /cancel event is removed to make bot work perfectly.
-Thanks - Team SPY
+Thanks - Remo
 
 ```
 """
