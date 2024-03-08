@@ -52,13 +52,12 @@ async def start_command(event):
     buttons = [
         [Button.inline("SET THUMB", data="set"),
          Button.inline("REM THUMB", data="rem")],
-        [Button.url("Join Channel", url="https://telegram.dog/dev_gagan")]
+        [Button.url("Join Channel", url="https://telegram.dog/biksitlogsm")]
     ]
 
     # Sending photo with caption and buttons
     await gagan.send_file(
         event.chat_id,
-        file=START_PIC,
         caption=TEXT,
         buttons=buttons
     )
