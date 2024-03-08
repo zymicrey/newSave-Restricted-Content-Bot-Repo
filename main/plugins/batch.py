@@ -1,4 +1,4 @@
-#Join t.me/dev_gagan
+#Join Remo
 
 import logging
 import time, os, asyncio
@@ -70,7 +70,7 @@ async def _batch(event):
                 return
             batch.append(f'{event.sender_id}')
             cd = await conv.send_message("**Batch process ongoing...**\n\nProcess completed: ", 
-                                    buttons=[[Button.url("Join Channel", url="http://t.me/dev_gagan")]])
+                                    buttons=[[Button.url("Join Channel", url="t.me/nxjsjsjjssj")]])
             co = await run_batch(userbot, Bot, event.sender_id, cd, _link) 
             try: 
                 if co == -2:
@@ -151,7 +151,7 @@ async def run_batch(userbot, client, sender, countdown, link):
             logger.info(e)
             await client.send_message(sender, f"An error occurred during cloning, batch will continue.\n\n**Error:** {str(e)}")
             if countdown.text != count_down:
-                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/dev_gagan")]])
+                await countdown.edit(count_down, buttons=[[Button.url("Join Channel", url="https://t.me/xnxnsjsksksks")]])
         n = i + 1
         if n == len(ids):
             return -2
