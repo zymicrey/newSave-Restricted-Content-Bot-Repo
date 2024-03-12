@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo](https://t.me/zjxjdjjaka)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
+                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo](https://t.me/zjxjdjjaka)**__" if msg.caption else "__Unrestricted by **[Team REMO]**__"
                 await client.send_document(
                     sender,
                     path, 
