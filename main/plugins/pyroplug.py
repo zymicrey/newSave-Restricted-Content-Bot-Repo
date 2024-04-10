@@ -1,4 +1,4 @@
-# Join t.me/dev_gagan
+# Join t.me/team_remo8898
 
 import asyncio, time, os
 
@@ -174,7 +174,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     logging.info(e)
                     thumb_path = None
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo]**__" if msg.caption else "__Unrestricted by **[Team Remo](https://t.me/paoaaoakwkak)**__"
+                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo](https://t.me/team_remo8898)**__" if msg.caption else "__Unrestricted by **[Team Remo](https://t.me/team_remo8898)**__"
                 await client.send_video(
                     chat_id=sender,
                     video=path,
@@ -187,7 +187,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading: [Team Remo](https://t.me/zkxkxksks)__**\n ',
+                        '**__Uploading: [Team Remo](https://t.me/team_remo8898)__**\n ',
                         upm,
                         time.time()
                     )
@@ -204,7 +204,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
 
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo]**__" if msg.caption else "__Unrestricted by **[Team Remo](https://t.me/ajakaaksjks)**__"
+                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo]**__" if msg.caption else "__Unrestricted by **[Team Remo](https://t.me/team_remo8898)**__"
                 await upm.edit("__Uploading photo...__")
 
                 await bot.send_file(sender, path, caption=caption)
@@ -220,7 +220,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path=thumbnail(sender)
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo](https://t.me/zjxjdjjaka)**__" if msg.caption else "__Unrestricted by **[Team REMO]**__"
+                caption = f"{msg.caption}\n\n__Unrestricted by **[Team Remo](https://t.me/team_remo8898)**__" if msg.caption else "__Unrestricted by **[Team REMO]**__"
                 await client.send_document(
                     sender,
                     path, 
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**__Uploading:__**\n**__Bot made by [Team Remo](https://t.me/sjsxnxjsjak)__**',
+                        '**__Uploading:__**\n**__Bot made by [Team Remo](https://t.me/team_remo8898)__**',
                         upm,
                         time.time()
                     )
