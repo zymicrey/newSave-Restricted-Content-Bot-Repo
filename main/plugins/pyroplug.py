@@ -37,7 +37,7 @@ async def check(userbot, client, link):
         msg_id = int(link_.split("/")[-1])
     if 't.me/c/' in link:
         try:
-            chat = int('-100' + str(link.split("/")[-2]))
+            chat = int('-100' + str(msg_link.split("/")[4]))
             await userbot.get_messages(chat, msg_id)
             return True, None
         except ValueError:
